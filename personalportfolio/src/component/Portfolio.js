@@ -11,6 +11,21 @@ const projects = [
     description: 'SleepShop is a quick and easy way to get rewarded for sleep! Log your sleep and get paid to do it.',
     link: 'https://sleepshop.herokuapp.com/login'
   },
+  {
+    title: 'On Demand Book Search',
+    description: 'This application allows you to search for books and save them to your profile.',
+    link: 'https://ondemandbooksearch-9340aefb8990.herokuapp.com/'
+  },
+  {
+    title: 'Code Editor',
+    description: 'This application allows you to write and save code in a variety of languages.',
+    link: 'https://personalcodeeditor-21330447922a.herokuapp.com/'
+  },
+  {
+    title: 'Code Quiz',
+    description: 'This application allows you to take a timed quiz on coding fundamentals.',
+    link: 'https://jahsperh.github.io/code-quiz/'
+  }
   
 ];
 
