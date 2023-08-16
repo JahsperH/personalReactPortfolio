@@ -4,6 +4,8 @@ import About from './component/About';
 import Contact from './component/Contact';
 import Resume from './component/Resume';
 import Home from './component/Home';
+import Footer from './component/Footer';
+import Portfolio from './component/Portfolio';
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('home');
@@ -24,6 +26,9 @@ const App = () => {
     case 'contact':
       displayedSection = <Contact />;
       break;
+      case 'portfolio':
+        displayedSection = <Portfolio />;
+        break;
     case 'resume':
       displayedSection = <Resume />;
       break;
@@ -40,6 +45,7 @@ const App = () => {
       {displayedSection}
     </div>
   );
+  <Footer />;
 };
 
 export default App;

@@ -36,6 +36,14 @@ const Nav = ({ onSectionChange, currentSection }) => {
             Resume
           </button>
         </li>
+        <li>
+          <button
+            onClick={() => onSectionChange('portfolio')}
+            className={currentSection === 'portfolio' ? 'active' : ''}
+          >
+            Portfolio
+          </button>
+        </li>
       </ul>
     </nav>
   );
