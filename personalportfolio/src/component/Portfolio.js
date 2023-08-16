@@ -2,16 +2,16 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description of Project 1.',
-    link: 'https://project1.example.com'
+    title: 'Brrdi',
+    description: 'Welcome to Brrdi! Brrdi is a minimal social media application for the needs of anyone and everyone.',
+    link: 'https://brrdi-aeb82933537b.herokuapp.com/login'
   },
   {
-    title: 'Project 2',
-    description: 'Description of Project 2.',
-    link: 'https://project2.example.com'
+    title: 'SleepShop',
+    description: 'SleepShop is a quick and easy way to get rewarded for sleep! Log your sleep and get paid to do it.',
+    link: 'https://sleepshop.herokuapp.com/login'
   },
-  // Add more projects as needed
+  
 ];
 
 const Portfolio = () => {

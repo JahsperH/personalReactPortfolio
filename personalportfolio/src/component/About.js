@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <p className="text-gray-700">
-            Welcome to my portfolio! I'm so glad you're here. My name is Jahsper Harrell and I'm a full-stack web developer with a passion for creating beautiful and functional web experiences and having fun while doing it!
+            Welcome to my portfolio! I'm so glad you're here. My name is Jahsper Harrell I'm 19 and just finished my coding bootcamp through the University of Utah. I'm a full-stack web developer with a passion for creating beautiful and functional web experiences and having fun while doing it!
           </p>
           <p className="text-gray-700 mt-4">
             I have a strong background in front-end development and enjoy

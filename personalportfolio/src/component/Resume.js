@@ -8,18 +8,16 @@ const Resume = () => {
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold mb-4">Education</h3>
           <div className="mb-4">
-            <h4 className="text-md font-semibold">Bachelor of Science in Computer Science</h4>
-            <p className="text-gray-700">University Name, Graduation Year</p>
+            <h4 className="text-md font-semibold">Full Stack Web Dev Bootcamp</h4>
+            <p className="text-gray-700">University of Utah, 2023</p>
           </div>
 
           <h3 className="text-lg font-semibold mb-4">Work Experience</h3>
           <div className="mb-4">
-            <h4 className="text-md font-semibold">Frontend Developer</h4>
-            <p className="text-gray-700">Company Name, Start Date - End Date</p>
+            <h4 className="text-md font-semibold">To be updated</h4>
+            <p className="text-gray-700">N/A</p>
             <ul className="list-disc ml-6">
-              <li>Developed and maintained user interfaces for web applications using React.</li>
-              <li>Collaborated with design and back-end teams to implement features.</li>
-              <li>Optimized web applications for performance and responsiveness.</li>
+              <li>Currently looking and applying to jobs.</li>
             </ul>
           </div>
         </div>
