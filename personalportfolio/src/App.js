@@ -1,37 +1,31 @@
-// import logo from './logo.svg';
 import React, { useState } from 'react';
-import Home from './component/Home';
-import './App.css';
+import Nav from './component/Nav';
+import About from './component/About';
+import Contact from './component/Contact';
 
+const App = () => {
 
-function App() {
-  const [greeting, setGreeting] = useState('Welcome! React state is awesome!');
-  const handleStateChange = () => {
-    setGreeting('React state is really awesome!');
-  };
   return (
+    <body>
+    <main class="container">
+    <div class="grid">
     <div className="App">
-      <h1>Personal Portfolio</h1>
-      <Home 
-        greeting={greeting}
-        handleStateChange={handleStateChange}
-      />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link" 
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <h1>Jahsper Harrell</h1>
+      {/* add any extra text you need using <p></p> */}
+      <Nav />
+      
+      {/* Add your other sections/components here */}
     </div>
+    <div>
+    <About />
+    </div>
+    <div>
+    <Contact />
+    </div>
+    </div>
+    </main>
+    </body>
   );
-}
+};
 
 export default App;
