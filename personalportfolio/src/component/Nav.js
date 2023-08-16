@@ -1,25 +1,40 @@
 import React from 'react';
 
-const Nav = () => {
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    section.scrollIntoView({ behavior: 'smooth' });
-  };
-
+const Nav = ({ onSectionChange, currentSection }) => {
   return (
-    <nav>
+    <nav className="mt-4 flex justify-center">
       <ul>
         <li>
-          <button onClick={() => scrollToSection('About')}>About Me</button>
+          <button
+            onClick={() => onSectionChange('home')}
+            className={currentSection === 'home' ? 'active' : ''}
+          >
+            Home
+          </button>
         </li>
         <li>
-          <button onClick={() => scrollToSection('portfolio')}>Portfolio</button>
+          <button
+            onClick={() => onSectionChange('about')}
+            className={currentSection === 'about' ? 'active' : ''}
+          >
+            About Me
+          </button>
         </li>
         <li>
-          <button onClick={() => scrollToSection('contact')}>Contact</button>
+          <button
+            onClick={() => onSectionChange('contact')}
+            className={currentSection === 'contact' ? 'active' : ''}
+          >
+            Contact
+          </button>
         </li>
         <li>
-          <button onClick={() => scrollToSection('resume')}>Resume</button>
+          <button
+            onClick={() => onSectionChange('resume')}
+            className={currentSection === 'resume' ? 'active' : ''}
+          >
+            Resume
+          </button>
         </li>
       </ul>
     </nav>
@@ -27,5 +42,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-

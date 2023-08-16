@@ -45,9 +45,12 @@ const Contact = () => {
           </div>
           <div className="w-1/2 pl-8">
             <h3 className="text-xl font-bold mb-2">Find Me Here</h3>
-            <p className="text-gray-700 mb-2">123 Street, City</p>
-            <p className="text-gray-700 mb-2">Email: example@example.com</p>
-            <p className="text-gray-700 mb-2">Phone: 123-456-7890</p>
+            <p className="text-gray-700 mb-2">
+              Email: <a href="mailto:jahsper.harrell@gmail.com">jahsper.harrell@gmail.com</a>
+            </p>
+            <p className="text-gray-700 mb-2">
+              Phone: <a href="tel:435-744-8718">435-744-8718</a>
+            </p>
           </div>
         </div>
       </div>
