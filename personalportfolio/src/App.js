@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './component/Nav';
 import About from './component/About';
-// import Portfolio from './component/Portfolio';
 import Contact from './component/Contact';
 import Resume from './component/Resume';
 import Home from './component/Home';
@@ -22,9 +21,6 @@ const App = () => {
     case 'about':
       displayedSection = <About />;
       break;
-    // case 'portfolio':
-    //   displayedSection = <Portfolio />;
-    //   break;
     case 'contact':
       displayedSection = <Contact />;
       break;
