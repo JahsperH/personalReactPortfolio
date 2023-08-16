@@ -41,7 +41,7 @@ const Nav = ({ onSectionChange, currentSection }) => {
             onClick={() => onSectionChange('portfolio')}
             className={currentSection === 'portfolio' ? 'active' : ''}
           >
-            Portfolio
+            Projects
           </button>
         </li>
       </ul>
