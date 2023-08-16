@@ -42,10 +42,13 @@ const App = () => {
         <h1 className="text-4xl font-bold">Jahsper Harrell</h1>
       </header>
       <Nav onSectionChange={handleSectionChange} currentSection={currentSection} />
-      {displayedSection}
+      <div className="pb-16"> {/* Add bottom padding to prevent overlap */}
+        {displayedSection}
+      </div>
+      <Footer />
     </div>
   );
-  <Footer />;
 };
+  
 
 export default App;
