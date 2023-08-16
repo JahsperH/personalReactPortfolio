@@ -45,6 +45,11 @@ const Nav = ({ onSectionChange, currentSection }) => {
           </button>
         </li>
       </ul>
+      {/* <img
+            src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
+            alt="Profile"
+            className="w-10 h-10 rounded-full mr-2"
+          /> */}
     </nav>
   );
 };
